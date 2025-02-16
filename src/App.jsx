@@ -104,6 +104,9 @@ function App() {
           <Route path="/task/:id" element={<TaskDetails />} />
         </Route>
 
+        <Route path="/Task-Manager" element={<Navigate to="/dashboard" />} />
+
+
         {/* Login route */}
         <Route path="/log-in" element={<Login />} />
       </Routes>
